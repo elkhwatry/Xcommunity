@@ -1,0 +1,119 @@
+/*end haeder*/
+/*start media query*/
+/*mobile and tablate screen size*/ /*from 0 to mobile*/
+@media (max-width:767px){
+    .gradient .navbar{
+        padding-bottom: 0;
+    } 
+    
+    .navbar-nav{
+        background-color: #008189;
+        margin-left: 50px;
+        padding-bottom: 40px;
+    }
+    .gradient .logo{
+     font-size: 20px !important;
+    }
+    
+    .gradient ul{
+        margin-right: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    video{
+        width: 300px;
+    }
+    .gradient .link a{
+        font-size: 10px !important;
+        
+    }
+    .navbar-toggler{
+        background-color: #008189;
+        line-height: .5;
+        
+    }
+    .navbar-toggler-icon{
+        background-color: #03ACAB;
+        height: 3px;
+       
+       }
+       .page-header h2{
+        margin-top: -15px;
+       }
+    
+} 
+/*from small to medium*/
+/*samll screen*/
+@media (min-width:768px) and (max-width: 991px) {
+    
+   
+
+    
+    .gradient .link a{
+        font-size: 10px !important;
+       
+    }
+    
+    .navbar-toggler{
+        background-color: #FFF;
+    
+    }
+    body{
+        overflow-y: auto;
+     }    
+    video{
+            width: 300px;
+        }
+        ::-webkit-scrollbar{
+            width: 10px;
+            width: 10px;
+            
+        }
+        
+        ::-webkit-scrollbar-track{
+            background-color: #fff;
+        }
+        ::-webkit-scrollbar-thumb{
+            background-color: #008189;
+        }
+        .navbar-toggler{
+            background-color: #008189;
+            line-height: .5;
+        }
+        .navbar-toggler-icon{
+            background-color: #03ACAB;
+            height: 3px;
+           
+           }
+}
+
+/*from medium to large*/
+/*medium scren*/
+@media (min-width: 992px) and (max-width: 1199px){
+    body{
+       overflow-y: auto;
+    }
+    .navbar-toggler-icon{
+        background-color: black;
+    }
+    video{
+        margin-right: 0;
+    }
+    ::-webkit-scrollbar{
+        width: 10px;
+        width: 10px;
+        
+    }
+    
+    ::-webkit-scrollbar-track{
+        background-color: #fff;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: #008189;
+    }
+}
+
+/*large scren*/
+@media (min-width: 1200px) {
+
+}
